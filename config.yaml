@@ -1,0 +1,172 @@
+Header:
+  version: 161
+Prototypes:
+- children:
+  - class: UIStaticText
+    classes: text2-small text-color-white
+    components:
+      Anchor:
+        bottomAnchorEnabled: true
+        leftAnchorEnabled: false
+        rightAnchor: 130.0
+        rightAnchorEnabled: true
+      UIShadowComponent:
+        blurType: Gauss
+        color:
+        - 1.0
+        - 0.0
+        - 0.0
+        - 1.0
+        indent: 100
+      UITextComponent:
+        align:
+        - VCENTER
+        - RIGHT
+        colorInheritType: COLOR_IGNORE_PARENT
+        shadowColor:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+        shadowOffset:
+        - 2.0
+        - 2.0
+        text: 'L: 0'
+    name: Losses
+    position:
+    - 25.0
+    - 70.0
+    size:
+    - 200.0
+    - 30.0
+    visible: true
+  - class: UIStaticText
+    classes: text2-small text-color-white
+    components:
+      Anchor:
+        bottomAnchorEnabled: true
+        leftAnchorEnabled: false
+        rightAnchor: 210.0
+        rightAnchorEnabled: true
+      UIShadowComponent:
+        blurType: Gauss
+        color:
+        - 0.0
+        - 1.0
+        - 0.0
+        - 1.0
+        indent: 100
+      UITextComponent:
+        align:
+        - VCENTER
+        - RIGHT
+        colorInheritType: COLOR_IGNORE_PARENT
+        shadowColor:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+        shadowOffset:
+        - 2.0
+        - 2.0
+        text: 'W: 0'
+    name: Wins
+    position:
+    - 25.0
+    - 70.0
+    size:
+    - 200.0
+    - 30.0
+    visible: true
+  - class: UIStaticText
+    classes: text2-small text-color-white
+    components:
+      Anchor:
+        bottomAnchorEnabled: true
+        leftAnchorEnabled: false
+        rightAnchor: 290.0
+        rightAnchorEnabled: true
+      UIShadowComponent:
+        blurType: Gauss
+        color:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+        indent: 100
+      UITextComponent:
+        align:
+        - VCENTER
+        - RIGHT
+        colorInheritType: COLOR_IGNORE_PARENT
+        shadowColor:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+        shadowOffset:
+        - 2.0
+        - 2.0
+        text: 'B: 0'
+    name: Battles
+    position:
+    - 25.0
+    - 70.0
+    size:
+    - 200.0
+    - 30.0
+    visible: true
+  - class: UIStaticText
+    classes: text2-small text-color-white
+    components:
+      Anchor:
+        bottomAnchorEnabled: true
+        leftAnchorEnabled: false
+        rightAnchor: 360.0
+        rightAnchorEnabled: true
+      UIShadowComponent:
+        blurType: Gauss
+        color:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+        indent: 100
+      UITextComponent:
+        align:
+        - VCENTER
+        - RIGHT
+        colorInheritType: COLOR_IGNORE_PARENT
+        shadowColor:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+        shadowOffset:
+        - 2.0
+        - 2.0
+        text: 'WR: 0'
+    name: Winrate
+    position:
+    - 25.0
+    - 70.0
+    size:
+    - 200.0
+    - 30.0
+    visible: true
+  class: UIControl
+  components:
+    Anchor:
+      bottomAnchorEnabled: false
+      leftAnchorEnabled: false
+      rightAnchor: -14.0
+      rightAnchorEnabled: true
+      topAnchor: -70.0
+      topAnchorEnabled: true
+    UIAnchorSafeAreaComponent:
+      bottomSafeInset: REVERSE
+  input: false
+  name: PlayerStatistics
+  size:
+  - 200.0
+  - 100.0
