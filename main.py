@@ -81,7 +81,8 @@ def main():
 
         try: 
             with open(DEF_YAML_NAME, 'r') as file:
-                data = yaml.safe_load(file)
+                data = yaml.load(file, Loader=yaml.FullLoader)
+                # print("DATA: ", data)
         except Exception as E:
             cprint("[0] Cannot parse yaml: " + str(E), 'white', 'on_red')
 
@@ -114,7 +115,7 @@ def main():
 
         try: 
             with open(DEF_YAML_NAME, 'w') as file:
-                yaml.dump(data, file, default_flow_style=False, indent=2)
+                file.write(str(data))
         except Exception as E:
             cprint("[0] Cannot write to yaml: " + str(E), 'white', 'on_red')
 
